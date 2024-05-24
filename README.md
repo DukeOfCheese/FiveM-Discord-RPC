@@ -1,6 +1,8 @@
 # AtlasDev-FiveM-Discord-Status
 This is an extremely customisable, informative Discord RPC for your FiveM server
 
+# Support - https://discord.gg/6wxdQMrruw
+
 # Installation
 1. Download latest release from https://github.com/DukeOfCheese/AtlasDev-FiveM-Discord-Status/releases/latest
 2. Visit https://discord.com/developers/applications and create an application
