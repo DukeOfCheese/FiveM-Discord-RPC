@@ -1,7 +1,7 @@
 # AtlasDev-FiveM-Discord-Status
 This is an extremely customisable, informative Discord RPC for your FiveM server
 
-#Installation
+# Installation
 1. Download latest release from https://github.com/DukeOfCheese/AtlasDev-FiveM-Discord-Status/releases/latest
 2. Visit https://discord.com/developers/applications and create an application
 3. Set the name of the application to whatever you want the name of the status to be
