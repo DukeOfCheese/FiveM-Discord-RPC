@@ -5,13 +5,13 @@
 ------------Use config.lua instead-----------
 
 Citizen.CreateThread(function(source)
+    local player = GetPlayerPed(-1)
+    local index = GetPlayerIndex(player)
+    local id = GetPlayerServerId(PlayerId())
+    local player_name = GetPlayerName(index)
     while true do
         -- DO NOT TOUCH THIS SECTION, it makes sure your game doesn't crash and is getting variables correctly
         -- If you do know what you are doing, feel free to make a pull request
-        local player = GetPlayerPed(-1)
-        local index = GetPlayerIndex(player)
-        local id = GetPlayerServerId(PlayerId())
-        local player_name = GetPlayerName(index)
         local player_count = #GetActivePlayers()
         local start_fps = GetFrameCount()
         Citizen.Wait(5*1000)
@@ -22,7 +22,6 @@ Citizen.CreateThread(function(source)
         -- NO NEED TO EDIT - USE CONFIG.LUA
         SetDiscordAppId(Config.AppID)
         SetRichPresence("Players: ".. player_count .. "/".. Config.maxplayers)
-
         SetDiscordRichPresenceAsset("big")
         if (IsPedInAnyVehicle(GetPlayerPed(-1), false)) then
             local speed = GetEntitySpeed(GetVehiclePedIsIn(GetPlayerPed(-1), false))*2.2369
