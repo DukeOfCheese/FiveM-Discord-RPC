@@ -5,6 +5,7 @@ On download, it shows:
 - Player's current ID
 - Player's current FPS
 - Player's current location (and if driving what their speed is)
+- Player's speed descriptor changes with vehicle type
 - Player count of the server
 
 # Support - https://discord.gg/6wxdQMrruw
