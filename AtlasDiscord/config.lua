@@ -1,6 +1,6 @@
 Config = {}
 -- Put your Discord Application ID here (https://discord.com/developers/applications)
-Config.AppID = 000000000000
+Config.AppID = 000000000000000000
 
 -- Maximum players in server (shows on status, so ensure it is correct)
 Config.maxplayers = 48
